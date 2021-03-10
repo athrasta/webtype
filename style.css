@@ -1,5 +1,5 @@
 .maincontainer {
-    background-color: #eae9df;
+    background-color: #dcdcdc;
 	width: 100vw;
     height: 100vh;
     overflow: scroll;
@@ -8,39 +8,38 @@
 }
 
 h1 {
-	font-family: acumin-pro, sans-serif;
+	font-family: work-sans, sans-serif;
 	/* font-family: 'Work Sans', sans-serif; */
-	font-weight: 400; 
+	font-weight: 200; 
 	font-style: normal;
-	font-size: 20px;
+	font-size: 28px;
 	line-height:97px;
 	margin: auto;
-	width: 1200px;
+	padding-left: 20px;
 	padding-top: 40px;
 	text-align: left;
 	}
 
 	h2{
 		/* font-family: acumin-pro, sans-serif; */
-		font-family: acumin-pro, sans-serif;
+		font-family: work-sans, sans-serif;
 		font-weight: 400; 
 		font-size: 14px;
+		font-style: italic;
 		/* line-height: 28px; */
-		width: 610px;
 		padding-top: 30px;
 		padding-left: 70px;
 		}
 h3{
 	/* font-family: acumin-pro, sans-serif; */
-	font-family: acumin-pro, sans-serif;
+	font-family: work-sans, sans-serif;
 	font-weight: 200; 
 	font-style: normal;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 36px;
 	padding-top: 20px;
-	/* padding-left: 80px; */
+	padding-left: 80px;
 	margin: auto;
-	width: 1150px;
 	text-align: left;
 	}		
 
@@ -49,6 +48,16 @@ p {
 	background-color: yellow;
 }
 
-h3 {
-	color: red;
+li {
+	font-family: acumin-pro, sans-serif;
+	font-weight: 200; 
+	font-style: normal;
+	font-size: 20px;
+	line-height: 36px;
+	padding-left: 40px;
+}
+
+ul {
+	color:green;
+	padding-left: 40px;
 }
