@@ -57,7 +57,7 @@ h1 {
 		}
 h3{
 	/* font-family: acumin-pro, sans-serif; */
-	font-family: "happy-times";
+	font-family: acumin-pro, sans-serif;
 	font-weight: 200; 
 	font-style: normal;
 	font-size: 20px;
@@ -67,6 +67,15 @@ h3{
 	margin: auto;
 	text-align: left;
 	}		
+
+	h4 {
+		font-family: acumin-pro, sans-serif;
+		font-weight: 200; 
+		font-style: normal;
+		font-size: 20px;
+		padding-left: 80px;
+
+	}
 
 p {
 	color: blue;
