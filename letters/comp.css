@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    background-color: bisque;
+}
+
+@font-face {
+    font-family: "happy-times";
+    font-weight: bold;
+    src: url("../fonts/happy-times-NG_bold_master_web.ttf") format("truetype"),
+         url("../fonts/happy-times-NG_bold_master_web.woff2") format("woff"),
+         url("../fonts/happy-times-NG_bold_master_web.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "happy-times";
+    font-weight: normal;
+    src: url("../fonts/happy-times-NG_regular_master_web.ttf") format("truetype"),
+            url("../fonts/happy-times-NG_regular_master_web.woff2") format("woff"),
+            url("../fonts/happy-times-NG_regular_master_web.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "happy-times";
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/happy-times-NG_italic_master_web.ttf") format("truetype"),
+            url("../fonts/happy-times-NG_italic_master_web.woff2") format("woff"),
+            url("../fonts/happy-times-NG_italic_master_web.woff2") format("woff2");
+}
+
+.letter1{
+    position: absolute;
+    left: 50px;
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.letter2{
+    position: absolute;
+    width:500px;
+    left: 600px;
+    height:500px;
+    border: 1px solid black;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+.letter3{
+    position: absolute;
+    width:500px;
+    left: 1150px;
+    height:500px;
+    border: 1px solid black;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+
+.a{
+    position: absolute;
+    top: -600px;
+    left: -200px;
+    font-family: "happy-times";
+    font-weight: italic;
+    font-size: 1200px;
+    transform: rotate(30deg);
+}
+
+
+.o {
+
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 800px;
+    transform: rotate(60deg);
+}
+.j {
+
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 800px;
+    transform: rotate(60deg);
+}

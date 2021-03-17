@@ -1,13 +1,18 @@
 
-.maincontainer {
-    background-color: #e9e9e9;
-	width: 100vw;
-    height: 100vh;
-    overflow: scroll;
-    padding: 40px;
-    /* height: 100%; */
-    /* background-color: #5266AD; */
+
+.container{
+   margin: auto;
+   background-color: whitesmoke;
+   width: 100vw;
+   height: 100vh;
+   overflow: scroll;
 }
+
+.item{
+	border-top: 2px solid burlywood;
+	padding: 0;
+}
+
 
 @font-face {
     font-family: "happy-times";
@@ -42,15 +47,13 @@
 
 
 h1{
-	color: #f3b597; 
-    /* font-family: orpheuspro, serif; */
+	color: burlywood; 
+    position: relative;
     font-family: 'happy-times';
-    /* font-weight: 200; */
     font-weight: normal;
-    font-size: 72px;
+    font-size: 52px;
     font-style: italic;
-    padding-left: 20px;
-    /* border-bottom: 5px solid white; */
+    padding-left: 10px;
 }
 
 
@@ -60,10 +63,11 @@ h2 {
     font-family: 'happy-times';
     font-weight: bold;
     /* font-weight: 400;  */
-    font-size: 32px;
-    line-height: 38x; 
+    font-size: 24px;
+    line-height: 28x; 
     color: #56af96;
     /* border-bottom: 3px solid yellow; */
+    padding-left: 10px;
 }
 
 
@@ -71,8 +75,9 @@ h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-style: bold;
-    font-size: 42px;
-    color: #f3b597; 
+    font-size: 24px;
+    color: burlywood;  
+    padding-left: 10px;
 }
 
 h4 {
@@ -81,24 +86,30 @@ h4 {
     font-size: 22px;
     line-height: 28px; 
     color: #56af96;
+    padding-left: 10px;
 }
 
-.first {
-    width: 65vw;
-    /* height: 100vh; */
-    color: green;
-    /* border-color: white;
-    border-style: solid; */
-    padding-left: 20px;
+
+.details {
+    line-height: 1.5;
+    color: burlywood;
+    display: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    width: 950px;
 }
 
-.second {
-    width: 60vw;
-    /* height: 100vh; */
-    color: green;
-    /* border-color: white;
-    border-style: solid; */
-    border-bottom: royalblue;
-    padding-left: 20px;
+.item:hover .details{
+
+	display: block;
+
 }
 
+
+a{
+    color: burlywood;
+}
+a:hover{
+	/* color: burlywood; */
+    color: #56af96;
+}
