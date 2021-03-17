@@ -7,11 +7,36 @@
     /* background-color: #5266AD; */
 }
 
+@font-face {
+    font-family: "happy-times";
+    font-weight: bold;
+    src: url("fonts/happy-times-NG_bold_master_web.ttf") format("truetype"),
+         url("fonts/happy-times-NG_bold_master_web.woff2") format("woff"),
+         url("fonts/happy-times-NG_bold_master_web.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "happy-times";
+    font-weight: normal;
+    src: url("fonts/happy-times-NG_regular_master_web.ttf") format("truetype"),
+            url("fonts/happy-times-NG_regular_master_web.woff2") format("woff"),
+            url("fonts/happy-times-NG_regular_master_web.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "happy-times";
+    font-weight: normal;
+    font-style: italic;
+    src: url("fonts/happy-times-NG_italic_master_web.ttf") format("truetype"),
+            url("fonts/happy-times-NG_italic_master_web.woff2") format("woff"),
+            url("fonts/happy-times-NG_italic_master_web.woff2") format("woff2");
+}
+
 h1 {
-	font-family: work-sans, sans-serif;
+	font-family: "happy-times";
 	/* font-family: 'Work Sans', sans-serif; */
 	font-weight: 200; 
-	font-style: normal;
+	font-style: italic;
 	font-size: 28px;
 	line-height:97px;
 	margin: auto;
@@ -22,7 +47,7 @@ h1 {
 
 	h2{
 		/* font-family: acumin-pro, sans-serif; */
-		font-family: work-sans, sans-serif;
+		font-family: "happy-times";
 		font-weight: 400; 
 		font-size: 14px;
 		font-style: italic;
@@ -32,7 +57,7 @@ h1 {
 		}
 h3{
 	/* font-family: acumin-pro, sans-serif; */
-	font-family: work-sans, sans-serif;
+	font-family: "happy-times";
 	font-weight: 200; 
 	font-style: normal;
 	font-size: 20px;
