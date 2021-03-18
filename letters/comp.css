@@ -161,10 +161,17 @@
 
     position: absolute;
     top: 10px;
-    left: 200px;
+    left: 100px;
     font-family: "happy-times";
     font-style: italic;
-    font-weight: bold;
     font-size: 600px;
-    transform: rotate(20deg);
+    animation: bounce 4s linear infinite;
+}
+
+
+
+@keyframes bounce {
+    0%   { transform: translateY(10); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(10); }
 }
