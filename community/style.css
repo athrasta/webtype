@@ -64,8 +64,8 @@ h2 {
     font-family: 'happy-times';
     font-weight: bold;
     /* font-weight: 400;  */
-    font-size: 24px;
-    line-height: 28x; 
+    font-size: 18px;
+    line-height: 22x; 
     color: #56af96;
     /* border-bottom: 3px solid yellow; */
     padding-left: 10px;
@@ -76,7 +76,7 @@ h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-style: bold;
-    font-size: 24px;
+    font-size: 18px;
     color: burlywood;  
     padding-left: 10px;
 }
