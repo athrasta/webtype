@@ -225,7 +225,7 @@ a:hover{
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-    animation: tilt 1.5s ease-in infinite alternate;
+    animation: tilt 1s ease-in infinite alternate;
 }
 
 @keyframes tilt{
