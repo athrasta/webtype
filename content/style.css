@@ -138,7 +138,7 @@ h3 {
 h4 {
     font-family: 'neue-haas-unica', sans-serif;
     font-weight: 200;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 92px; 
     font-weight: 300;
     color: #56af96;
@@ -161,11 +161,11 @@ h4 {
     width: 1150px;
 }
 
-.item:hover .words{
+/* .item:hover .words{
 
 	background-color: blue;
 
-}
+} */
 
 
 a{
@@ -175,7 +175,7 @@ a:hover{
     color: #56af96;
 }
 
-.first {
+/* .first {
     display: inline;
  	border: 1px dotted burlywood;
 	background: transparent;
@@ -185,17 +185,17 @@ a:hover{
 	border-radius: 50px;
     text-align: center;
     /* border-radius: 50%; */
-    size: 40px;
+    /* size: 40px;
 
-}
+} */
 
-.first:hover {
+/* .first:hover {
     color: burlywood;
     cursor: pointer;
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-}
+} */ 
 
 .second {
     display: inline-flex;
@@ -219,7 +219,7 @@ a:hover{
     /* background-image: url('https://www.azamara.com/sites/default/files/heros/reykjavik-iceland-1800x1000.jpg'); */
     background-repeat: no-repeat;
     cursor: pointer;
-    font-size: 92px;
+    font-size: 82px;
     padding: 2rem;
     border-radius: 100px;
     -moz-box-shadow: 0 0 10px #ccc;
