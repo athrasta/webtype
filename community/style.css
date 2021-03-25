@@ -47,12 +47,47 @@
   } */
 
 
+  button{
+	font-size: 28px;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-weight: 200;
+	font-weight: bold;
+    color:burlywood;
+	border: 1px solid burlywood;
+	background: transparent;
+	padding: 0.5rem;
+    margin-left: 50px;
+	margin-bottom: .5rem;
+	border-radius: 5px;
+    
+}
+
+button:hover{
+	/* background: white; */
+    border: 2px dotted #56af96;
+    color: #56af96;
+	cursor: pointer;
+}
+
+.details{
+	line-height: 1.3;
+    margin-left: 50px;
+	color: burlywood;
+	display: none;
+}
+
+.active{
+	display: block;
+}
+
+
+
 h1{
 	color: burlywood; 
     position: relative;
     font-family: 'happy-times';
     font-weight: normal;
-    font-size: 52px;
+    font-size: 72px;
     font-style: italic;
     padding-left: 10px;
 }
@@ -61,11 +96,12 @@ h1{
 
 h2 {
     /* font-family: 'Work Sans', sans-serif; */
-    font-family: 'happy-times';
-    font-weight: bold;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
     /* font-weight: 400;  */
-    font-size: 18px;
-    line-height: 22x; 
+    line-height: 42x; 
     color: #56af96;
     /* border-bottom: 3px solid yellow; */
     padding-left: 10px;
@@ -73,19 +109,21 @@ h2 {
 
 
 h3 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
     font-weight: 400;
+    font-style: normal;
     font-style: bold;
-    font-size: 18px;
+    font-size: 28px;
     color: burlywood;  
     padding-left: 10px;
 }
 
 h4 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 28px; 
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px; 
     color: #56af96;
     padding-left: 10px;
 }

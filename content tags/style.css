@@ -49,13 +49,6 @@
 	display: none;
 }
 
-a:link {
-    color: burlywood;
-  }
-
-a:visited {
-    color: burlywood;
-  }
 
 .active{
 	display: block;
@@ -83,7 +76,13 @@ button:hover{
 	cursor: pointer;
 }
 
+a:link {
+    color: burlywood;
+  }
 
+a:visited {
+    color: burlywood;
+  }
 
 
 
@@ -138,7 +137,7 @@ h4 {
 }
 
 .keywords {
-    width: 1200px;
+    width: 1400px;
 
 }
 
