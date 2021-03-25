@@ -218,6 +218,9 @@ a:hover{
     /* background-image: url('https://www.azamara.com/sites/default/files/heros/reykjavik-iceland-1800x1000.jpg'); */
     background-repeat: no-repeat;
     cursor: pointer;
+    font-size: 92px;
+    padding: 2rem;
+    border-radius: 80px;
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
