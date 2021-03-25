@@ -2,7 +2,7 @@
 
 .container{
    margin: auto;
-   background-color: whitesmoke;
+   background-color: ivory;
    width: 100vw;
    height: 100vh;
    overflow: scroll;
@@ -60,6 +60,12 @@
 	margin-bottom: .5rem;
 	border-radius: 5px;
     
+}
+
+    button:hover{
+    border: 2px dotted #56af96;
+    color: #56af96;
+	cursor: pointer;
 }
 
 

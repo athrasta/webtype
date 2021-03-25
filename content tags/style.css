@@ -84,6 +84,15 @@ a:visited {
     color: burlywood;
   }
 
+.circle {
+    height: 90px;
+    width: 250px;
+    border: 2px dotted #56af96;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 20px;
+    align-self: center;
+}
 
 
   /* @font-face {
@@ -129,23 +138,85 @@ h3 {
 h4 {
     font-family: 'neue-haas-unica', sans-serif;
     font-weight: 200;
-    font-size: 62px;
-    line-height: 72px; 
+    font-size: 58px;
+    line-height: 92px; 
     font-weight: 300;
     color: #56af96;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .keywords {
-    width: 1400px;
+    width: 1300px;
 
+}
+
+
+.words {
+    line-height: 1.5;
+    color: burlywood;
+    display: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    width: 1150px;
+}
+
+.item:hover .words{
+
+	background-color: blue;
+
+}
+
+
+a{
+    color: burlywood;
+}
+a:hover{
+    color: #56af96;
 }
 
 .first {
-    color: black;
+    display: inline;
+ 	border: 1px dotted burlywood;
+	background: transparent;
+	padding: 0.5rem;
+    margin-left: 50px;
+	margin-bottom: .5rem;
+	border-radius: 50px;
+    text-align: center;
+    /* border-radius: 50%; */
+    size: 40px;
 
+}
+
+.first:hover {
+    color: burlywood;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 .second {
-    color: purple;
+    display: inline-flex;
+  flex-wrap: wrap;
+ 	border: 1px dotted burlywood;
+	background: transparent;
+	padding: 0.5rem;
+    margin-left: 50px;
+	margin-bottom: .5rem;
+	border-radius: 50px;
+    text-align: center;
+    /* border-radius: 50%; */
+    size: 40px;
+
 }
+
+.second:hover {
+    color: burlywood;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
