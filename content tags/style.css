@@ -199,12 +199,13 @@ a:hover{
 
 .second {
     display: inline-flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
  	border: 1px dotted burlywood;
 	background: transparent;
-	padding: 0.5rem;
-    margin-left: 50px;
-	margin-bottom: .5rem;
+	padding: .5rem;
+    /* margin-left: 50px; */
+	margin-top: .5rem;
+    margin-bottom: .5rem;
 	border-radius: 50px;
     text-align: center;
     /* border-radius: 50%; */
