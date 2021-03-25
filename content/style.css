@@ -210,6 +210,7 @@ a:hover{
     text-align: center;
     /* border-radius: 50%; */
     size: 40px;
+    
 
 }
 
@@ -224,5 +225,14 @@ a:hover{
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+    animation: tilt 1.5s ease-in infinite alternate;
 }
 
+@keyframes tilt{
+    from{
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(-5deg);
+    }
+}

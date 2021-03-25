@@ -36,3 +36,4 @@ items.forEach(function(element){
 		element.querySelector('.details').classList.toggle('active');
 	};
 });
+
