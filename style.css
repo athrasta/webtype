@@ -1,5 +1,5 @@
 .maincontainer {
-    background-color: #dcdcdc;
+    background-color: ivory;
 	width: 100vw;
     height: 100vh;
     overflow: scroll;
@@ -36,13 +36,13 @@ h1 {
 	font-family: "happy-times";
 	/* font-family: 'Work Sans', sans-serif; */
 	font-weight: 200; 
-	font-style: italic;
-	font-size: 22px;
+	/* font-style: italic; */
+	font-size: 28px;
 	line-height:28px;
-	margin: auto;
-	padding-left: 20px;
+	margin-left: 70px;
 	padding-top: 40px;
 	text-align: left;
+	color: burlywood;
 	}
 
 	h2{
@@ -50,37 +50,39 @@ h1 {
 		font-family: "happy-times";
 		font-weight: 400; 
 		font-size: 14px;
-		font-style: italic;
 		/* line-height: 28px; */
 		padding-top: 30px;
 		padding-left: 70px;
+		color: #56af96;
 		}
 h3{
 	/* font-family: acumin-pro, sans-serif; */
-	font-family: acumin-pro, sans-serif;
-	font-weight: 200; 
+	font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-weight: 200;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 32px;
 	line-height: 36px;
 	padding-top: 20px;
 	padding-left: 80px;
 	margin: auto;
 	text-align: left;
+	color: #56af96;
 	}		
 
 	h4 {
-		font-family: acumin-pro, sans-serif;
+		font-family: 'neue-haas-grotesk-display', sans-serif;
 		font-weight: 200; 
 		font-style: normal;
 		font-size: 20px;
 		padding-left: 80px;
 
+
 	}
 
-p {
+/* p {
 	color: blue;
 	background-color: yellow;
-}
+} */
 
 li {
 	font-family: acumin-pro, sans-serif;
@@ -95,3 +97,12 @@ ul {
 	
 	padding-left: 40px;
 }
+
+
+a:link {
+    color: burlywood;
+  }
+
+a:visited {
+    color: burlywood;
+  }
