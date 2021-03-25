@@ -12,7 +12,7 @@ trigger.onclick = function (event) {
 // 	we are setting up the trigger to listne to the 'click' event
 	console.log('trigger clicked!');
 
-	let detaildivs = document.querySelectorAll('.details');
+	let detaildivs = document.querySelectorAll('.intro');
 	
 	detaildivs.forEach(function(element){
 		element.classList.toggle('active');
@@ -29,10 +29,10 @@ trigger.onclick = function (event) {
 // setup show hide button in each item
 //------------------------------------
 
-let items = document.querySelectorAll('.item');
+let items = document.querySelectorAll('.start');
 
 items.forEach(function(element){
 	element.onclick = function(event){
-		element.querySelector('.details').classList.toggle('active');
+		element.querySelector('.intro').classList.toggle('active');
 	};
 });
