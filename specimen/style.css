@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: "NewFontGX";
+    font-weight: 100;
+    src: url("../fonts/NewFontGX.ttf") format("ttf"),
+    
+  }
+  :root{
+	--wght: 200;
+	--wdth: 400;
+	--XHGT: 100;
+
+	--color: red;
+}
+
+body{
+	font-family: 'work-sans', sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color:  var(--color);
+    align-items: center;
+    background-color: rgb(189, 204, 212);
+}
+
+.type {
+    font-weight: 200;
+    left: 200px;
+    font-size: 100px;
+    color: white;
+}
+
+.letter1{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+.letter2{
+    position: absolute;
+    left: 330px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+.letter3{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+.letter4{
+    position: absolute;
+    left: 780px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+.letter5{
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+.letter6{
+    position: absolute;
+    left: 1220px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(189, 204, 212);
+    animation: bounce 6s linear infinite;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(10); }
+}
+
+.m {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 100px;
+    font-family: 'work-sans';
+    font-weight: 100;
+}
+
+.i {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 100px;
+    font-family: 'work-sans';
+}
+
+.r {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 100px;
+    font-family: 'work-sans';
+}
+
+.o {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 100px;
+    font-family: 'work-sans';
+}
