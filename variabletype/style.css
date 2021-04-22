@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'Mirror';
+    src: url('fonts/MirrorGX.ttf') format('truetype');
+  }
+
+  :root{
+	--wght: 10;
+	--wdth: 100;
+	--XHGT: 500;
+
+}
+
+.mirror, .mirror *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}
+
+
+  .my-variable-text {
+    font-family: "mirror";
+    font-size:15vw;
+    color: blue;
+	line-height: 0.9;
+	text-align: center;
+    transition: font-variation-settings 0.3s ease;
+    animation-name: mirror-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+   /* .my-variable-text:hover {
+    filter: invert(100%);
+  } */
+
+  @keyframes mirror-animation {
+    from {
+      font-variation-settings: "wght" 0, "ital" 0, "NORD" 100;
+    }
+    to {
+      font-variation-settings: "wght" 100, "ital" 100, "NORD" 200;
+    }
+  }
+
+
+/* 
+.mirror-regular {
+    font-variation-settings: "wght" 10;
+}
+
+.mirror-medium {
+    font-variation-settings: "wght" 50;
+}
+
+.mirror-broken {
+    font-variation-settings: "wght" 100;
+} */
+
+
+.container {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+
+h1 {
+    color: blue;
+    font-family: 'mirror'; 
+    font-variation-settings: 'wght' 10;
+    font-weight: 10;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    color: blue;
+    font-size: 42px;
+    font-weight: 200;
+    padding-left: 20px;
+}
+
+
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 100;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+
+
+/* .my-variable-text {
+    font-family: "mirror";
+    font-size: 80px;
+    color: blue;
+    font-variation-settings: "wght" 10;
+    transition: font-variation-settings 0.3s ease;
+  } */
+  
+ 
+
+/* 
+BUTTON STYLES */
+
+/* #buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Mirror';
+	font-variation-settings: 'wght' 10;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px dotted cornflowerblue;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
+} */

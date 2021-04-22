@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: 'Mirror';
+    src: url('fonts/MirrorGX.ttf') format('truetype');
+  }
+
+  :root{
+	--wght: 10;
+	--wdth: 100;
+	--XHGT: 500;
+
+}
+
+.mirror, .mirror *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}
+
+/* 
+.mirror-regular {
+    font-variation-settings: "wght" 10;
+}
+
+.mirror-medium {
+    font-variation-settings: "wght" 50;
+}
+
+.mirror-broken {
+    font-variation-settings: "wght" 100;
+} */
+
+
+.container {
+    overflow: scroll;
+    padding: 0px;
+}
+
+.my-text {
+    font-family: "mirror";
+    font-variation-settings: "wght" 100;
+  }
+
+h1 {
+    color: blue;
+    font-family: 'mirror'; 
+    font-variation-settings: 'wght' 10;
+    font-weight: 10;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+    font-family: 'mirror';
+    font-variation-settings: 'wght' 10;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 100;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+
+.my-variable-text {
+    font-family: "mirror";
+    font-size: 80px;
+    color: blue;
+    font-variation-settings: "wght" 10;
+    transition: font-variation-settings 0.3s ease;
+  }
+  
+  .my-variable-text:hover {
+    font-variation-settings: "wght" 100;
+  }
+
+/* 
+BUTTON STYLES */
+
+#buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Mirror';
+	font-variation-settings: 'wght' 10;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px dotted cornflowerblue;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
+}
