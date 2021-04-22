@@ -71,6 +71,7 @@
 body {
   background-color: whitesmoke;
   color: blue;
+  overflow: hidden;
 }
 
 .dark-mode {
