@@ -126,7 +126,7 @@ button:hover{
 /* ABOUT  */
 
 
-/* nav {
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -168,4 +168,4 @@ main {
 
 main.open {
   transform: translate(240px, 0);
-} */
+}
