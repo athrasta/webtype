@@ -14,7 +14,6 @@
     color: white;
     overflow: scroll;
     min-height: 100vh;
-    overflow-x: hidden;
     margin: 0;
   }
   
@@ -42,11 +41,12 @@
 
 .z{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 800px;
+    font-size: 1800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
     /* color: white; */
@@ -63,10 +63,10 @@
 
 .o{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 800px;
     font-weight: 300;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
@@ -83,11 +83,11 @@
 
 .o{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
 }
@@ -104,11 +104,11 @@
 
 .m{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
 }
@@ -125,11 +125,11 @@
 
 .z2{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     animation: slide 3s ease-in infinite;
 }
 
@@ -147,11 +147,11 @@
 
 .o2{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     animation: slide 3s ease-in infinite;
 }
 
@@ -171,12 +171,11 @@
 
 .o2{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 900px;
-    
+    font-weight: 300;  
     animation: slide 3s ease-in infinite;
 }
 
@@ -192,11 +191,11 @@
 
 .m2{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
-    font-size: 800px;
     /* transform: rotate(5deg); */
     animation: slide 3s ease-in infinite;
 }
@@ -213,11 +212,11 @@
 
 .z3{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
 }
@@ -234,11 +233,11 @@
 
 .o3{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
 }
@@ -255,11 +254,11 @@
 
 .o3{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
 }
@@ -276,11 +275,11 @@
 
 .m3{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
 }
@@ -297,11 +296,11 @@
 
 .z4{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: slide2 2s ease-in infinite;
 }
@@ -318,11 +317,11 @@
 
 .o4{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: slide2 2s ease-in infinite;
 }
@@ -339,11 +338,11 @@
 
 .o4{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: slide2 2s ease-in infinite;
 }
@@ -360,11 +359,11 @@
 
 .m4{
     position: absolute;
-    top: -220px;
-    left: 20px;
+    top: -680px;
+    left: -80px;
+    font-size: 1800px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 900px;
     transform: rotate(10deg);
     animation: slide2 2s ease-in infinite;
 }
@@ -427,17 +426,19 @@
         cursor: pointer;
     } 
 
-
     a {
         color: white;
         font-size: 30px;
 	    padding: 1em;
-        right: 5em;
+        right: 1.5em;
         position: absolute;
-        top: 1em;
+        top: 2em;
     
     }
 
+    a:hover{
+        cursor: pointer;
+    }
 
     a:link {
         text-decoration: none;
