@@ -44,6 +44,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
     font-size: 800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
@@ -65,6 +66,7 @@
     left: 20px;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 800px;
+    font-weight: 300;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
 }
@@ -83,6 +85,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
     font-size: 800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
@@ -103,6 +106,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
     font-size: 800px;
     transform: rotate(-10deg);
     animation: bounce 2s ease-in infinite;
@@ -123,6 +127,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     animation: slide 3s ease-in infinite;
 }
@@ -144,6 +149,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     animation: slide 3s ease-in infinite;
 }
@@ -167,6 +173,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     
     animation: slide 3s ease-in infinite;
@@ -187,6 +194,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
     font-size: 800px;
     /* transform: rotate(5deg); */
     animation: slide 3s ease-in infinite;
@@ -207,6 +215,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
     font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
@@ -215,7 +224,7 @@
 .letter10{
     position: absolute;
     top: 450px;
-    left: 400px;
+    left: 300px;
     width:300px;
     height:300px;
     /* border: 1px solid black; */
@@ -227,6 +236,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
@@ -247,6 +257,7 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
@@ -267,11 +278,95 @@
     top: -220px;
     left: 20px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     font-size: 900px;
     transform: rotate(10deg);
     animation: rotate 2s ease-in infinite;
 }
 
+.letter13{
+    position: absolute;
+    left: 50px;
+    top: 650px;
+    width:300px;
+    height:300px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.z4{
+    position: absolute;
+    top: -220px;
+    left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 900px;
+    transform: rotate(10deg);
+    animation: slide2 2s ease-in infinite;
+}
+
+.letter14{
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    width:300px;
+    height:300px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.o4{
+    position: absolute;
+    top: -220px;
+    left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 900px;
+    transform: rotate(10deg);
+    animation: slide2 2s ease-in infinite;
+}
+
+.letter15{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    width:300px;
+    height:300px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.o4{
+    position: absolute;
+    top: -220px;
+    left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 900px;
+    transform: rotate(10deg);
+    animation: slide2 2s ease-in infinite;
+}
+
+.letter16{
+    position: absolute;
+    top: 650px;
+    left: 1000px;
+    width:300px;
+    height:300px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.m4{
+    position: absolute;
+    top: -220px;
+    left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 900px;
+    transform: rotate(10deg);
+    animation: slide2 2s ease-in infinite;
+}
 
 
 
@@ -310,6 +405,11 @@
     100% { transform: translateY(10); }
     }
   
+    @keyframes slide2 {
+        0%   { transform: translateX(0); }
+        50%  { transform: translateX(-90px); }
+        100% { transform: translateX(0); }
+    }
 
     button{
     border-radius: 50%;
