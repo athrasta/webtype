@@ -427,12 +427,12 @@
     } 
 
     a {
-        color: white;
-        font-size: 30px;
+        color: red;
+        font-size: 40px;
 	    padding: 1em;
-        right: 1.5em;
+        top: .1em;
+        right: 2em;
         position: absolute;
-        top: 2em;
     
     }
 
