@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family: "ABCFavoritEdu-Regular";
+    font-weight: regular;
+    src: url("./fonts/ABCFavoritEdu-Regular.otf")
+  }
+
+
 body {
     background-color: blanchedalmond;
     align-items: center;
@@ -44,6 +51,7 @@ body {
     color: coral;
     font-family: "ABCFavoritEdu-Regular";
 }
+
 
 .flex-column-wrapper{
     border-bottom: 1px solid coral;
