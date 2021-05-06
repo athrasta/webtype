@@ -1,0 +1,54 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+	justify-content: center; 
+    overflow: scroll;
+}
+
+.prompt {
+	margin: 100px;
+
+} 
+
+
+.text{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    overflow: scroll;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 4vw;
+    line-height: 1;
+    color:coral;
+
+}
+
+h2 {
+    color: coral;
+    font-family: 'Space Mono', monospace;
+    font-weight: 200;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+button{
+    color:coral;
+    border: 2px dotted coral;
+	background: transparent;
+	padding: 1rem;
+	border-radius: 50px;
+    
+}
+
+button:hover{
+    border: 2px dotted green;
+    background-color: green;
+	cursor: pointer;
+}
