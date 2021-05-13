@@ -16,8 +16,8 @@ body {
   }
   
 .container {
-   padding-top: 15em;
-   padding-bottom: 15em;
+   padding-top: 18em;
+   padding-bottom: 20em;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -96,14 +96,18 @@ body {
 
 .prompt {
     text-align: left;
-    padding: 0.5em;
-    margin-right: 0.35em;
-    margin-bottom: 0.35em;
+    padding: .5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
     font-family: "ABCFavoritEdu-Regular";
     font-weight: 200;
     font-size: 1.5em;
     color: coral;
-    border: 1px solid;
+    border: 1px solid coral;
+}
+
+.promt:hover{
+    color: green;
 }
 
 
@@ -184,9 +188,9 @@ a {
     font-weight: 200;
     font-size: 2vw;
     color: coral;
-
     
 }
+
 
 /* 
 nav {
