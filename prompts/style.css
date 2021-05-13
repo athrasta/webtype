@@ -259,11 +259,6 @@ nav {
     justify-content: center;
   }
   
-  nav a {
-    color: #ffffff;
-    text-decoration: none;
-    /* margin: 5px 32px 5px 32px; */
-  }
   
   main {
     position: relative;
@@ -285,4 +280,16 @@ nav {
     text-decoration: none;
     font-family: "ABCFavoritEdu-Regular";
     color: coral;
+  }
+
+  h2 {
+      font-family: "ABCFavoritEdu-Regular";
+      color: coral;
+      font-size: 1.5em;
+      padding-left: 10px;
+  }
+
+  h2:hover {
+      color:chocolate;
+      
   }
