@@ -264,15 +264,16 @@ nav {
     
     font-family: "ABCFavoritEdu-Regular";
     color: coral;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.4;
-    padding: 10px;
+    padding-top: 10px;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   
+
   
   main {
     position: relative;
