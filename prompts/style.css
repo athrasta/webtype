@@ -174,8 +174,9 @@ button:hover{
     justify-content: center;
     border: 1px solid coral;
     width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    height: 40px;
+    margin: 1em;
+
 
 }
 
