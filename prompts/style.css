@@ -8,23 +8,21 @@
 
 body {
     background-color: blanchedalmond;
-    align-items: center;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
-  .container {
-   padding-top: 20em;
-   padding-bottom: 20em;
+.container {
+   padding-top: 15em;
+   padding-bottom: 15em;
     display: flex;  
     justify-content: center;
     align-items: center;
   
-  }
+}
   
   p {
     font-family: "ABCFavoritEdu-Regular";
@@ -79,23 +77,56 @@ body {
 
 }
 
-#prompt {
+
+#prompt-container {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.prompt {
+    text-align: left;
+    padding: 0.5em;
+    margin-right: 0.35em;
+    margin-bottom: 0.35em;
+    font-family: "ABCFavoritEdu-Regular";
+    font-weight: 200;
+    font-size: 1.5em;
+    color: coral;
+    border: 1px solid;
+}
+
+
+/* #prompt {
     font-family: "ABCFavoritEdu-Regular";
     font-weight: 200;
     font-size: 2vw;
     color: coral;
    
-}
+} */
 
 
-.flex-column-wrapper{
+/* .flex-column-wrapper{
     border-bottom: 1px solid coral;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
+    align-items: center;
+} */
+
+
 
 #text {
     display: flex;
@@ -110,6 +141,8 @@ body {
     padding-top: 10em;
     padding-bottom: 10em;
 }
+
+
 
 /* button{
     display: flex;
