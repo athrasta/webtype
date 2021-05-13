@@ -53,6 +53,7 @@ body {
     align-items: flex-end;
     padding-top: 30px;
     text-decoration: line-through;
+    z-index: 2;
     
 }
 
