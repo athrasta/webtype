@@ -11,14 +11,50 @@ body {
     align-items: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+   padding-top: 20em;
+   padding-bottom: 20em;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  p {
+    font-family: "ABCFavoritEdu-Regular";
+    font-size: 5em;
+    color: coral;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .typeText::after {
+    content: "|";
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+  
+
+
 #datetime {
     font-family: "ABCFavoritEdu-Regular";
     color: coral;
-    padding-left: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 10px;
+    padding-top: 30px;
+    text-decoration: line-through;
     
 }
 
@@ -49,7 +85,7 @@ body {
     font-weight: 200;
     font-size: 2vw;
     color: coral;
-    font-family: "ABCFavoritEdu-Regular";
+   
 }
 
 
@@ -65,11 +101,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Space Mono', monospace;
-    font-weight: 200;
-    font-size: 1.3vw;
+    font-family: 'PT Mono', monospace;
+    font-weight: 100;
+    font-size: 1.5vw;
+    line-height: 1.4;
     color: coral;
     overflow: hidden;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 /* button{
@@ -116,3 +155,96 @@ a {
     
 }
 
+/* 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    background-color: blanchedalmond;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav a {
+    text-decoration: none;
+    margin: 5px 32px;
+    
+  }
+  
+  a {
+   
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    
+  }
+  
+  a:hover {
+    color: seagreen;
+  }
+  
+  
+  main {
+    position: relative;
+    z-index: 1;
+    min-height: 90vh;
+    padding-left: 50;
+  
+  }
+  
+  main.open {
+    transform: translate(240px, 0);
+  } */
+
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: blanchedalmond;
+    color: #ffffff;
+    
+    font-family: "ABCFavoritEdu-Regular";
+    color: coral;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    /* margin: 5px 32px 5px 32px; */
+  }
+  
+  main {
+    position: relative;
+    z-index: 1;
+    background-color: blanchedalmond;
+    min-height: 100vh;
+    transition: transform 0.5s;
+  }
+  
+  main.open {
+    transform: translate(280px, 0);
+  }
+  
+  a.toggle-nav {
+   position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "ABCFavoritEdu-Regular";
+    color: coral;
+  }
